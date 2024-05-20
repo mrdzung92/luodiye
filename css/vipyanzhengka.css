@@ -1,0 +1,62 @@
+
+#capture {
+    width: 947px;
+    height: 505px;
+    background: url(../img/vipyanzhengka.jpg) no-repeat center center fixed;
+    position: relative;
+    /* background-size: cover; */
+}
+.id_text {
+    position: absolute;
+    top: 52px;
+    left: 35px;
+    width: 180px;
+    text-align: center;
+    z-index: 1;
+}
+.id_text .pspan {
+    font-size: 27px;
+    font-weight: 600;
+    color: #000;
+}
+.id_text3 {
+    position: absolute;
+    top: 368px;
+    left: 325px;
+    text-align: center;
+    z-index: 1;
+    width: 300px;
+    line-height: 1;
+}
+.id_text3 .pspan {
+    font-size: 30px;
+    font-weight: 600;
+    color: #181719;
+}
+.id_text2{
+    position: absolute;
+    top: 52px;
+    right: 40px;
+    text-align: right;
+    z-index: 1;
+}
+.id_text2 p {
+    font-size: 29px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+.id_text4 {
+    position: absolute;
+    top: 440px;
+    left: 215px;
+    text-align: center;
+    z-index: 1;
+    width: 500px;
+}
+.id_text4 .pspan{
+    font-size: 27px;
+    font-weight: 600;
+    color: #fcd78c;
+}

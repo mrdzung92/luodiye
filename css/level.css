@@ -1,0 +1,119 @@
+#capture {
+    width: 795px;
+    height: 485px;
+    margin: 10px auto 0;
+    position: relative;
+}
+
+#capture .left-content {
+    position: absolute;
+    z-index: 1;
+    left: 60px;
+    top: 40px;
+}
+
+.left-content .logo {
+    display: flex;
+    align-items: center;
+}
+
+.left-content .slogen {
+    font-size: 48px;
+    color: white;
+    margin-top: 10px;
+    opacity: 0.2;
+}
+
+.left-content .vip-slogen {
+    font-size: 36px;
+    color: white;
+    margin-top: 10px;
+    background: linear-gradient(to right, #fff, #f7d4e9, #a3fdfd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.left-content .vip {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #ccc;
+}
+
+.left-content .vip .vip-level {
+    margin-left: 10px;
+}
+
+.left-content .vip-level {
+    font-weight: bold;
+    background: linear-gradient(to right, #b054f2, #c786fb);
+    color: white;
+    font-size: 26px;
+    padding-left: 6px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.left-content .vip-level .right {
+    border-width: 18px;
+    border-style: solid;
+    border-left-color: transparent;
+    border-right-color: #000000dc;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    top: 0;
+    right: 0;
+
+}
+
+.left-content .vip-level .botom {
+    border-width: 6px;
+    border-style: solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-top-color: #b054f2;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    bottom: -11px;
+    left: 0;
+}
+
+
+#capture .logo img {
+    width: 60px;
+    height: 60px;
+}
+
+#capture .logo .logo-text {
+    font-weight: bold;
+    font-size: 48px;
+    margin-left: 16px;
+    color: white;
+}
+
+.card_box {
+    position: relative;
+}
+
+.card_box img {
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom;
+}
+
+.card_box .anh_gai {
+    position: absolute;
+    width: 440px;
+    height: 468px;
+    vertical-align: bottom;
+    bottom: 0;
+    right: -50px;
+}

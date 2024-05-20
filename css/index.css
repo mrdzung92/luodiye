@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    color: #9799ca;
+}
+#app {
+    background: url(../img/bg.jpg)    no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    transform-origin: 50% 50%;
+    transform: rotateX(0deg);
+    transition: opacity 1s ease, transform 1s ease;
+    padding: 3.2em 3em 3em 3em;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #40415f, #2b2d48);
+    cursor: default;
+    max-width: 100%;
+    opacity: .95;
+    position: relative;
+    text-align: center;
+}
+#main div {
+    color: #9799ca;
+    margin-bottom: .72rem;
+    letter-spacing: .22em;
+}
+
+#main h1 {
+    font-size: 1.85em;
+    letter-spacing: .22em;
+    margin: 0 0 .525em 0;
+}
+a, div>p {
+    cursor: pointer;
+    color: #f0caa7;
+    display: inline-block;
+    letter-spacing: .22em;
+}
+
+#main .avatar {
+    position: relative;
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+#main .avatar img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    box-shadow: 0 0 0 .12em #9799ca;
+}
